@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #000000;
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar .menu .btn a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.navbar .menu .btn a:hover {
+  color: rgb(0, 255, 238);
+  cursor: pointer;
+}
+
+#search-icon:hover {
+  color: rgb(0, 255, 238);
+  cursor: pointer;
+}
+
+.slideshow-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.slideshow-container img {
+  width: 100%;
+  height: auto;
+  animation: slide 16s infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  33.33% {
+    transform: translateX(-100%);
+  }
+  66.66% {
+    transform: translateX(-143%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container h3 {
+  text-align: center;
+}
+
+.container .data {
+  width: 40%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
