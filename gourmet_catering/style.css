@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+nav a {
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+nav div a {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 20px;
+}
+
+nav div a:hover {
+  background-color: gray;
+}
+
+nav a:hover {
+  background-color: gray;
+}
+
+header img {
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header #w3-text-humburger {
+  transform: translateY(-100px);
+  margin-left: 300px;
+}
+
+header #w3-text-humburger h1 {
+  color: rgba(144, 139, 139, 0.8);
+  font-weight: 20;
+}
+
+main #w3-about {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+main #w3-about-col {
+  width: 500px;
+  padding: 20px;
+}
+
+main #w3-about-col h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+main #w3-about-col h4 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+main #w3-about-col p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 40px;
+  letter-spacing: 3px;
+}
+
+hr {
+  width: 58%;
+  margin: auto;
+}
+
+main #w3-menu {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+main #w3-menu-col {
+  width: 500px;
+  padding: 20px;
+}
+
+main #w3-menu-col h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+main #w3-menu-col h4 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+main #w3-menu-col p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 40px;
+  letter-spacing: 3px;
+}
+
+hr {
+  width: 58%;
+  margin: auto;
+}
+
+#w3-menu-col h4 {
+  text-align: left;
+}
+
+#w3-menu-col .wrapper-text h4 {
+  text-align: left;
+}
+
+#w3-menu-col .wrapper-text p {
+  text-align: left;
+}
+
+#w3-menu-col .wrapper-text {
+  margin-bottom: 40px;
+}
+
