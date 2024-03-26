@@ -135,3 +135,66 @@ hr {
   margin-bottom: 40px;
 }
 
+#w3-contact {
+  /* margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; */
+
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 450px;
+  margin-right: 500px;
+}
+
+#w3-contact h1 {
+  margin-bottom: 40px;
+}
+
+#text {
+  padding: 20px;
+}
+
+#w3-blue-text {
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+form > * {
+  display: block;
+}
+
+form > * {
+  width: 1000px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid black;
+}
+
+#submit {
+  width: 150px;
+  background-color: whitesmoke;
+  border: white;
+}
+
+#submit:hover {
+  background-color: rgb(176, 170, 170);
+}
+
+footer {
+  background-color: grey;
+}
+footer p {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
