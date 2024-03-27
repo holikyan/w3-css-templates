@@ -40,3 +40,198 @@ header .search:hover {
   cursor: pointer;
   background-color: orangered;
 }
+.slider-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.slide {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.slide {
+  animation: slideAnimation 40s infinite;
+}
+
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  33.333% {
+    transform: translateX(-100%);
+  }
+  66.666% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#container {
+  margin-top: 40px;
+  width: 100%;
+}
+
+#container h1,
+#container h4 {
+  text-align: center;
+}
+
+#container h4 {
+  margin-top: 5px;
+  font-weight: 100;
+}
+
+#container p {
+  margin-top: 40px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  flex-direction: row;
+  width: 200px;
+  height: auto;
+  overflow: hidden;
+}
+
+.item p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#images .item:nth-child(1),
+#images .item:nth-child(2) {
+  margin-right: 20px;
+}
+
+#tour-dates {
+  margin-top: 40px;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#start h1 {
+  margin-top: 50px;
+}
+
+#start h4 {
+  margin-bottom: 50px;
+}
+#start h1,
+#start h4 {
+  color: whitesmoke;
+  text-align: center;
+}
+
+#start h4 {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+#list {
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+#list #list-box li {
+  width: 40%;
+  height: 40px;
+  border: 4px solid black;
+  background-color: whitesmoke;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 8px;
+  padding-left: 20px;
+  list-style: none;
+}
+
+#list-box li p:nth-child(1) {
+  color: rgb(20, 108, 20);
+  display: inline;
+  background-color: salmon;
+  padding: 4px;
+}
+
+#tickets {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+#tickets .item:nth-child(1),
+#tickets .item:nth-child(2) {
+  margin-right: 10px;
+}
+
+#tickets .item {
+  width: 200px;
+  height: 470px;
+  background-color: rgb(255, 255, 255);
+}
+
+#tickets .item p {
+  text-align: left;
+  padding-left: 8px;
+}
+
+#tickets .item button {
+  margin-left: 8px;
+}
+
+#tickets .item p:nth-child(2) {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+#tickets .item button {
+  width: 80px;
+  height: 25px;
+  border: none;
+  background-color: black;
+  color: whitesmoke;
+}
+
+#tickets .item button:hover {
+  color: black;
+  background-color: gray;
+}
