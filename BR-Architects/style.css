@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.w3-left {
+  color: black;
+  text-decoration: none;
+  margin-left: 30px;
+  letter-spacing: 4px;
+  padding: 10px 6px 10px 6px;
+}
+
+.w3-right a {
+  color: black;
+  text-decoration: none;
+  margin-right: 30px;
+  letter-spacing: 4px;
+  padding: 10px 6px 10px 6px;
+}
+
+.w3-left:hover {
+  background-color: grey;
+}
+
+.w3-right a:nth-of-type(1):hover,
+.w3-right a:nth-of-type(2):hover,
+.w3-right a:nth-of-type(3):hover {
+  background-color: gray;
+}
+
+.image {
+  margin: 0 200px 0 200px;
+  text-align: center;
+}
+
+.image img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.image b,
+.image p {
+  font-size: 36px;
+  display: inline;
+  letter-spacing: 4px;
+}
+
+.image b {
+  color: whitesmoke;
+  background-color: rgb(77, 72, 72);
+  padding: 5px;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+}
+
+main h3 {
+  margin: 40px 200px 40px 200px;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+hr {
+  margin: 0 200px 40px 200px;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.image-item {
+  position: relative;
+  text-align: center;
+  margin: 20px 20px 20px 20px;
+}
+
+.image-item img {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.image-item p {
+  position: absolute;
+  color: whitesmoke;
+  top: 0;
+  left: 0;
+  background-color: rgba(11, 10, 10, 0.7);
+  padding: 5px 10px;
+}
+
+.about p {
+  margin: 0 200px 0 200px;
+  font-size: 17px;
+}
