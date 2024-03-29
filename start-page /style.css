@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 51px;
+  background-color: #f44336;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+nav ul li {
+  padding: 16px 25px 14px 25px;
+  list-style: none;
+}
+
+nav ul li a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+nav ul li:nth-child(1) {
+  background-color: whitesmoke;
+}
+nav ul li:nth-child(1) a {
+  color: black;
+}
+nav ul li a {
+  color: whitesmoke;
+}
+
+nav ul li:hover {
+  background-color: whitesmoke;
+}
+
+nav ul li:hover a {
+  color: black;
+}
+
+.w3-red {
+  border-top: 1px solid red;
+  box-shadow: 0 -10px 10px -10px rgb(255, 17, 0);
+  width: 100%;
+  height: 470px;
+  background: #f44336;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.w3-red h1 {
+  margin: 16px;
+  font-size: 64px;
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+}
+
+.w3-red p {
+  font-size: 24px;
+  color: whitesmoke;
+  margin-bottom: 40px;
+}
+
+.w3-red button {
+  color: whitesmoke;
+  background-color: black;
+  padding: 12px 24px;
+  font-size: 25px;
+  border: none;
+}
+
+.w3-red button:hover {
+  color: black;
+  background-color: grey;
+}
+
+main {
+  margin-top: 470px;
+  display: flex;
+  flex-direction: column;
+}
+
+.f-part {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  margin-left: 250px;
+  margin-right: 0;
+  padding-top: 60px;
+}
+
+.content h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 36px;
+  padding-top: 30px;
+}
+
+.content h5 {
+  padding-top: 40px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.content p {
+  padding-top: 40px;
+  color: #757575;
+}
+
+.custom-icon {
+  font-size: 200px;
+  color: #f44336;
+  margin-top: 150px;
+  margin-right: 250px;
+  margin-left: 50px;
+}
+
+.s-part {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(241, 241, 241);
+}
+
+.content-s {
+  margin-right: 250px;
+  margin-left: 0;
+  padding-top: 60px;
+}
+
+.content-s h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 36px;
+  padding-top: 30px;
+}
+
+.content-s h5 {
+  padding-top: 40px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.content-s p {
+  padding-top: 40px;
+  color: #757575;
+}
+
+.custom-icon-coffee {
+  font-size: 200px;
+  color: #f44336;
+  margin-top: 150px;
+  margin-right: 90px;
+}
+
+.pic-s {
+  margin-left: 200px;
+  margin-right: 0;
+}
+.pic-s i {
+  margin-left: 50px;
+}
+
+.f-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-color: gray;
+}
+
+.f-line h4 {
+  color: whitesmoke;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.s-line {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.s-line .icons {
+  margin-top: 40px;
+}
+.s-line p {
+  margin-top: 40px;
+}
+
+.s-line p a {
+  text-decoration: none;
+}
