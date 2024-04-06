@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+img {
+  position: fixed;
+
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: 100;
+  padding: 12px 24px;
+}
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.middle h1 {
+  font-size: 64px;
+  font-weight: 100;
+}
+
+.middle p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.middle > h1,
+.middle p {
+  padding: 12px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  padding: 12px 24px;
+}
+.bottom a {
+  color: white;
+  cursor: pointer;
+  text-decoration: solid;
+}
+
+hr {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
