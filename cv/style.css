@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(222, 215, 215);
+}
+
+.w3-content {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 16px auto;
+}
+
+.f-line {
+  margin-right: 15px;
+  width: calc(100% / 3);
+  height: auto;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.avatar {
+  position: relative;
+  display: inline-block;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+}
+
+.avatar h2 {
+  font-size: 30px;
+  font-weight: 200;
+  position: absolute;
+  bottom: 0;
+  padding: 16px 16px;
+}
+
+.w3-container {
+  width: 100%;
+}
+
+.w3-container > p {
+  font-size: 15px;
+  font-weight: 100;
+  margin: 15px 0 15px 15px;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.full-procent {
+  width: 95%;
+  height: 18px;
+  border-radius: 38px;
+  background-color: #c5bbbb;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.procent {
+  width: 40%;
+  height: 18px;
+  border-radius: 38px;
+  background-color: #009688;
+  text-align: center;
+}
+.procent > p {
+  color: whitesmoke;
+}
+
+.w3-container .full-procent:last-child {
+  margin-bottom: 80px;
+}
+
+.w3-container .full-procent:nth-of-type(1) .procent {
+  width: 90%;
+}
+.w3-container .full-procent:nth-of-type(2) .procent {
+  width: 80%;
+}
+
+.w3-container .full-procent:nth-of-type(3) .procent {
+  width: 75%;
+}
+
+.w3-container .full-procent:nth-of-type(4) .procent {
+  width: 50%;
+}
+
+.w3-container .full-procent:nth-of-type(5) .procent {
+  width: 100%;
+}
+
+.w3-container .full-procent:nth-of-type(6) .procent {
+  width: 80%;
+}
+.w3-container .full-procent:nth-of-type(7) .procent {
+  width: 35%;
+}
+
+.part {
+  font-size: 18px;
+  font-weight: 900;
+  font-weight: bold;
+}
+
+.s-line {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: calc(100% / (3 / 2));
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: whitesmoke;
+}
+
+.f-block {
+  width: 100%;
+  height: 50%;
+  margin-bottom: 15px;
+  background-color: red;
+}
+
+.s-block {
+  width: 100%;
+  height: 50%;
+  background-color: green;
+}
