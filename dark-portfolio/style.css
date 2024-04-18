@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.w3-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.__nav {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 120px;
+  background: rgb(28, 27, 27);
+  position: fixed;
+}
+
+.__nav > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  padding: 12px 24px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.__nav > img {
+  opacity: 0.5;
+}
+.__nav > a > p {
+  margin: 12px 0;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.__nav > a > i {
+  font-size: 33px;
+  color: white;
+}
+
+.__nav > a:hover {
+  background: black;
+}
+
+.__nav > a:first-of-type {
+  background: black;
+}
+
+.__nav > a:first-of-type:hover {
+  background-color: rgb(228, 221, 221);
+  color: black;
+}
+
+.__nav > a:first-of-type:hover > i {
+  color: black;
+}
+
+.w3-right {
+  width: 100%;
+  background: black;
+}
+
+.__header {
+  text-align: center;
+  padding: 32px 16px;
+}
+.__header {
+  color: white;
+}
+.__header > h1 {
+  font-size: 64px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.__header > p {
+  font-size: 15px;
+  line-height: 1.5;
+}
